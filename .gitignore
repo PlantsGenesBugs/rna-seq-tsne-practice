@@ -1,0 +1,9 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files — keep locally, don't upload
+data/*.zip
+data/*/
+
+# macOS
+.DS_Store
