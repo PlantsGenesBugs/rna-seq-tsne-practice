@@ -1,20 +1,42 @@
-# The art of using t-SNE for single-cell transcriptomics
+# RNA-seq t-SNE — Practice & Notes
 
-![Pretty perplexity](pretty-perplexity.png)
+This repository is my personal practice version of the [Berens Lab RNA-seq t-SNE repository](https://github.com/berenslab/rna-seq-tsne).
 
-This is a companion repository to our paper https://www.nature.com/articles/s41467-019-13056-x (Kobak & Berens 2019, The art of using t-SNE for single-cell transcriptomics). All code is in Python Jupyter notebooks. We used this t-SNE implementation: https://github.com/KlugerLab/FIt-SNE.
+I'm using the original notebooks to learn and experiment with:
 
-See [`demo.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/demo.ipynb) for a step-by-step guide using a data set from Tasic et al., Nature 2018 (24,000 cells sequenced with Smart-seq2).
+* single-cell RNA-seq analysis
+* dimensionality reduction
+* PCA
+* t-SNE
+* UMAP
+* perplexity and neighbourhood structure
+* visualisation of single-cell transcriptomic data
 
-The preprocessed data from Tasic et al. (after library size normalization, log-transformation, highly variable gene selection and reduction to 50 dimensions with PCA) are available in `data/tasic-preprocessed` as the 50-dimensional data matrix and an array of point colors.
+## My practice notebooks
 
-The other notebooks generate all figures that we have in the paper:
+### `demo.ipynb`
 
-* [`toy-example.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/toy-example.ipynb)
-* [`tasic-et-al.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/tasic-et-al.ipynb)
-* [`umi-datasets.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/umi-datasets.ipynb)
-* [`million-cells.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/million-cells.ipynb)
-* [`two-million-cells.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/two-million-cells.ipynb)
-* [`umap-comparison.ipynb`](https://github.com/berenslab/rna-seq-tsne/blob/master/umap-comparison.ipynb)
+Following the original step-by-step analysis of the Tasic et al. dataset.
 
-The last three notebooks require one to run `server-10xdata.py` and `server-cao.py`. One needs more than 32 Gb of RAM to process these datasets conveniently, so these Python scripts were run separately on a powerful machine. They pickle all the results (t-SNE embeddings). Unfortunately, these pickles are too large to be shared on Github. 
+My notes and experiments:
+
+* ...
+* ...
+* ...
+
+### `toy-example.ipynb`
+
+Experiments with synthetic data to understand how t-SNE behaves.
+
+### My own notebooks
+
+I'll add my own analyses and experiments here as I work through the material.
+
+## Notes
+
+This is a learning repository based on the original work by Kobak & Berens (2019).
+
+The original repository is:
+https://github.com/berenslab/rna-seq-tsne
+
+Original authors and licensing information are retained in this repository.
