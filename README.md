@@ -28,7 +28,7 @@ I am using the original notebooks and data to practice non-linear dimensionality
 
 ### My practice
 
-* `01_demo_my_notes.ipynb` — annotated version of the demo
+* `01_my_demo.ipynb` — annotated version of the demo
 * `02_pca_experiments.ipynb` — experiments with PCA dimensionality
 * `03_tsne_perplexity.ipynb` — experiments with t-SNE perplexity
 * `04_tsne_vs_umap.ipynb` — comparison of t-SNE and UMAP
